@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
 body {
   font-family: "Nunito Sans", sans-serif;
+  margin: 0;
 }
 
 .img-fluida {
@@ -70,13 +73,13 @@ body {
 }
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   h3 {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
   }
   p {
-    font-size: 2.1rem;
+    font-size: 1.1rem;
   }
   a {
     font-size: 1.4rem;
@@ -99,22 +102,20 @@ body {
     text-decoration: none;
   }
 }
-.tituloliword {
-  font-size: 40px;
-}
-
-h5 {
-  font-size: 26px;
-}
-
 .parrafonosotros {
   font-size: large;
   margin: 10px;
   font-family: "Libre Baskerville", serif;
 }
 
-.tituloliword {
+.titulo {
   font-size: x-large;
+  font-family: "Quicksand", sans-serif;
+}
+
+.texto {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
 }
 
 header {
